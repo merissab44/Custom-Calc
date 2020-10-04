@@ -1,0 +1,23 @@
+body{
+background-image: url(./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg);
+background-size: 100%;
+background-position-y: 20%;
+background-repeat: no-repeat;
+}
+h1{
+   color: black;
+   text-align: center;
+}
+form >label{
+    color: black;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 238, 238);
+    background-blend-mode: darken;
+    width: 40%;
+    height: 200px;
+}
