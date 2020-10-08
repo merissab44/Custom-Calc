@@ -1,23 +1,49 @@
 body{
-background-image: url(./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg);
-background-size: 100%;
-background-position-y: 20%;
+font-family: 'Helvetica';
+font-size: 30px;
+background-image: url(./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+background-size: cover;
 background-repeat: no-repeat;
 }
 h1{
-   color: black;
+   color: white;
    text-align: center;
 }
 form >label{
-    color: black;
-    
+    color: black; 
+}
+form > input{
+    display: flex;
+    flex-direction: column;
+    padding: .8em;
+    width: 200px;
+    border: 1px solid;
+}
+#activity{
+    display: flex;
+    flex-direction: column;
+    padding: .8em;
+    width: 150px;
+    border: 1px solid;
+}
+#calorie-count{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(255, 15, 15), rgb(230, 133, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: center;
 }
 form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(240, 238, 238);
+    padding: 1em;
+    align-items: flex-start;
+    background-color: rgb(240, 238, 238, 0.3);
     background-blend-mode: darken;
-    width: 40%;
-    height: 200px;
+    width: 100%;
+    height: 400px;
+}
+form > div{
+    font-size: 50px;
+    align-self: center;
 }

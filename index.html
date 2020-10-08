@@ -12,13 +12,19 @@
     <form>
         <label>Choose an Activity:</label>
         <select id="activity">
-            <option value="Basketball">Basketball</option>
-            <option value="Swimming">Swimming</option>
-            <option value="Bowling">Bowling</option>
-            <option value="Baseball">Baseball</option>
-            <option value="Hiking">Hiking</option>
-            <option value="Biking">Biking</option>
+            <option id="Basketball" value="8">Basketball</option>
+            <option id="Swimming" value="8">Swimming</option>
+            <option id="Bowling" value="2">Bowling</option>
+            <option id="Baseball" value="5">Baseball</option>
+            <option id="Hiking" value="6">Hiking</option>
+            <option id="Biking" value="11">Biking</option>
         </select>
+        <label for="minutes">Minutes:</label>
+        <input name="minutes"id="workout" type="number" placeholder="minutes of workout">
+        <label for="weight">Weight (lbs): </label>
+        <input name="weight" id="weight" type="number" placeholder="weight in lbs">
+        <label id="calorie-count">Calories Burned</label>
+        <div id="display-calorie">0</div>
     </form>
 
 
@@ -29,7 +35,7 @@
 
 
 
-
+    <script src="scripts.js"></script>
     </body>
 
 </html>
